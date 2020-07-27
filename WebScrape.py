@@ -11,7 +11,7 @@ init()
 root_url = "http://quotes.toscrape.com/"
  
 def header():
-	header = figlet_format("WEB SCRAPING")
+	header = figlet_format("WEB SCRAPING PROJECT")
 	header = colored(header, color="red", attrs=["bold"])
 	print(header)
  
